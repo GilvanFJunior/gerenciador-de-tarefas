@@ -27,7 +27,7 @@ function App() {
       setTasks(data);
       //ARMAZENA OU PERSISTE OS DADOS NA STATE
     };
-    //Se quiser chamar a API PARA PEGAR AS TAREFAS
+    //Se quiser chamar a API PARA PEGAR AS TAREFAS.
     //fetchTasks();
   }, []);
 
@@ -60,6 +60,7 @@ function App() {
     <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
         <Title>Gerenciador de Tarefas</Title>
+
         <AddTask onAddTaskSubmit={onAddTaskSubmit} />
         <Tasks
           tasks={tasks}
