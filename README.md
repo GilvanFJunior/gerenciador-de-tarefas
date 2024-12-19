@@ -6,7 +6,7 @@ Este é um gerador de tarefas desenvolvido com React.js . Ele salva as anotaçõ
 
   <h1 align="center">💻 Funcionalidades </h1>
 
-<h1 align="center"> Geração anotações. </h1>
-<h1 align="center"> Salva elas com todos os detalhes que forem colocadas.</h1>
+<p align="center"> Geração anotações. </p>
+<p align="center"> Salva elas com todos os detalhes que forem colocadas.</p>
 
 
